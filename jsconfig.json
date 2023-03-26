@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "folder1/*": ["./src/folder1/*"],
+      "design-patterns/*": ["./src/design-patterns/*"]
+    }
+  }
+}

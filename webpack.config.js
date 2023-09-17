@@ -22,5 +22,7 @@ module.exports = {
             publicPath: "/home" // Used to serve index.html from a different path (localhost:8080/home)
         },
     },
-
+    optimization: {
+        sideEffects: true,
+    }
 }
